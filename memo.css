@@ -1,0 +1,26 @@
+* {box-sizing: border-box;}
+
+body {background-color: gray;
+  }
+header {display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 790px;
+    margin: auto;
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+main {display: flex;
+    justify-content:center;
+}
+#cards {display: grid;
+        grid-template-columns: repeat(3, 250px);
+        grid-column-gap: 20px;
+        grid-row-gap: 40px;
+       
+}
+.picture {border: solid black 2px;
+}
+p {text-align: justify;
+}
