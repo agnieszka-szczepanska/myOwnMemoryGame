@@ -20,7 +20,8 @@ main {display: flex;
         grid-row-gap: 40px;
        
 }
-.picture {border: solid black 2px;
+.img {border: solid black 2px;
+    cursor: pointer;
 }
 p {text-align: justify;
 }
